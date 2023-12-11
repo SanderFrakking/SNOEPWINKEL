@@ -1,0 +1,16 @@
+{
+  "name": "snoepwinkel-v3tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Sander Frakking",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^3.1.1",
+    "tailwindcss": "^3.3.2"
+  }
+}
